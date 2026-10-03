@@ -204,12 +204,12 @@ footer a:active {
 }
 
 .titulo-galeria {
-  text-align: center;
+    text-align: center;
 }
 
 .carousel-copiwear {
-  width: 50%;
-  margin: 0 auto;
+    width: 50%;
+    margin: 0 auto;
 }
 
 @media (min-width: 1024px) {
