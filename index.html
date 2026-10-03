@@ -1,144 +1,145 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!-- CSS -->
-    <link rel="stylesheet" href="./styles/style.css">
-    <title>CopiWear - Inicio</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <!-- CSS -->
+        <link rel="stylesheet" href="./styles/style.css">
+        <title>CopiWear - Inicio</title>
+        <!-- contenido de la pagina -->
+        <meta name="description" content="CopiWear es una tienda de indumentaria donde podés encontrar ropa para diferentes estilos, ofertas y productos de catálogo.">
+        <meta name="keywords" content="CopiWear, tienda de indumentaria, ropa, descuentos, catálogo de ropa">
+    </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-copiwear" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">
-                    <img class="logo" src="./assets/logos/logo.png" alt="Logo de la pagina" title="Logo de Indumentaria">
-                </a>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-copiwear" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                        <img class="logo" src="./assets/logos/logo.png" alt="Logo de CopiWear" title="Logo de Indumentaria">
+                    </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCopiWear" aria-controls="navbarCopiWear" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCopiWear">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCopiWear" aria-controls="navbarCopiWear" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCopiWear">
         
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/sobre_mi.html">Sobre mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main> 
-        <section class="contenido-texto"> 
-            <h1>CopiWear</h1> 
-            <p>Bienvenidos a CopiWear, una tienda de indumentaria donde podés encontrar ropa para diferentes estilos y ocasiones. </p>
-        </section> 
-        <section class="productos"> 
-            <div class="titulo-productos">
-                <h2>Ropa en descuento</h2> 
-            </div>
-            <div class="lista-productos">
-                <article>
-                    <h3>Camisa Polo Estilo Old Money</h3>
-                    <figure>
-                        <img src="./assets/indumentaria/Camisa Polo Descuento.png" alt="Camisa Polo con un 20% de descuento" title="Camisa Polo en descuento">
-                        <figcaption>Camisa Polo Estilo Old Money con descuento.</figcaption>
-                    </figure>
-                    <p>Precio anterior: $25.000</p>
-                    <p>Precio con descuento: $20.000</p>
-                </article>
-
-                <article>
-                    <h3>Botas de hombre con cordones</h3>
-                    <figure>
-                        <img src="./assets/indumentaria/Botas Marrones.png" alt="Botas de hombre con un 40% de descuento" title="Botas en descuento">
-                        <figcaption>Botas de hombre con cordones en descuento.</figcaption>
-                    </figure>
-                    <p>Precio anterior: $50.000</p>
-                    <p>Precio con descuento: $30.000</p>
-                </article>
-            </div>
-        </section> 
-
-        <section class="galeria">
-            <h2 class="titulo-galeria">Galeria de Catalogo</h2>
-            <div id="carouselCopiWear" class="carousel slide carousel-copiwear">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="imagen-galeria d-block w-100" src="./assets/catalogo/Botas.jpg" alt="Botas">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="imagen-galeria d-block w-100" src="./assets/catalogo/Buzos.jpg" alt="Buzos">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="imagen-galeria d-block w-100" src="./assets/catalogo/Chombas.jpg" alt="Chombas">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="imagen-galeria d-block w-100" src="./assets/catalogo/Jeans.jpg" alt="Jeans">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="imagen-galeria d-block w-100" src="./assets/catalogo/Zapatillas deportivas.jpg" alt="Zapatillas Deportivas">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/sobre_mi.html">Sobre mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCopiWear" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
+            </nav>
+        </header>
 
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselCopiWear" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>                        
-                    <span class="visually-hidden">Siguiente</span>
-                </button>
-            </div>
-        </section>
-    </main>
+        <main> 
+            <section class="contenido-texto"> 
+                <h1>CopiWear</h1> 
+                <p>Bienvenidos a CopiWear, una tienda de indumentaria donde podés encontrar ropa para diferentes estilos y ocasiones. </p>
+            </section> 
+            <section class="productos"> 
+                <div class="titulo-productos">
+                    <h2>Ropa en descuento</h2> 
+                </div>
+                <div class="lista-productos">
+                    <article>
+                        <h3>Camisa Polo Estilo Old Money</h3>
+                        <figure>
+                            <img src="./assets/indumentaria/Camisa Polo Descuento.png" alt="Camisa Polo con un 20% de descuento" title="Camisa Polo en descuento">
+                            <figcaption>Camisa Polo Estilo Old Money con descuento.</figcaption>
+                        </figure>
+                        <p>Precio anterior: $25.000</p>
+                        <p>Precio con descuento: $20.000</p>
+                    </article>
 
-    <footer>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img class="rrss-imagen" src="./assets/logos/Instagram.png" alt="Foto de Instagram con enlace a nuestra cuenta" title="Enlace a Instagram">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://wa.me/" target="_blank">
-                        <img class="rrss-imagen" src="./assets/logos/WhatsApp.png" alt="Foto de Whatsapp con enlace a nuestro contacto de Whatsapp" title="Enlace a Whatsapp" >
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
-                        <img class="rrss-imagen" src="./assets/logos/Facebook.png" alt="Foto de Facebook con enlace a nuestra cuenta" title="Enlace a Facebook">
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <p>Desarrollado por Santiago</p>
-        <p>&copy;<span id="year"></span>Todos los Derechos Reservados</p>
-    </footer>
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-    <!-- BOOTSTRAP -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+                    <article>
+                        <h3>Botas de hombre con cordones</h3>
+                        <figure>
+                            <img src="./assets/indumentaria/Botas Marrones.png" alt="Botas de hombre con un 40% de descuento" title="Botas en descuento">
+                            <figcaption>Botas de hombre con cordones en descuento.</figcaption>
+                        </figure>
+                        <p>Precio anterior: $50.000</p>
+                        <p>Precio con descuento: $30.000</p>
+                    </article>
+                </div>
+            </section> 
+
+            <section class="galeria">
+                <h2 class="titulo-galeria">Galeria de Catalogo</h2>
+                <div id="carouselCopiWear" class="carousel slide carousel-copiwear">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="imagen-galeria d-block w-100" src="./assets/catalogo/Botas.jpg" alt="Botas de indumentaria">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagen-galeria d-block w-100" src="./assets/catalogo/Buzos.jpg" alt="Buzos de indumentaria">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagen-galeria d-block w-100" src="./assets/catalogo/Chombas.jpg" alt="Chombas de indumentaria">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagen-galeria d-block w-100" src="./assets/catalogo/Jeans.jpg" alt="Jeans de indumentaria">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagen-galeria d-block w-100" src="./assets/catalogo/Zapatillas deportivas.jpg" alt="Zapatillas Deportivas de indumentaria">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCopiWear" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCopiWear" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>                        
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img class="rrss-imagen" src="./assets/logos/Instagram.png" alt="Foto de Instagram con enlace a nuestra cuenta" title="Enlace a Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/" target="_blank">
+                            <img class="rrss-imagen" src="./assets/logos/WhatsApp.png" alt="Foto de Whatsapp con enlace a nuestro contacto de Whatsapp" title="Enlace a Whatsapp" >
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                            <img class="rrss-imagen" src="./assets/logos/Facebook.png" alt="Foto de Facebook con enlace a nuestra cuenta" title="Enlace a Facebook">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <p>Desarrollado por Santiago</p>
+            <p>&copy;<span id="year"></span>Todos los Derechos Reservados</p>
+        </footer>
+        <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+        <!-- BOOTSTRAP -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
 </html>
 
 

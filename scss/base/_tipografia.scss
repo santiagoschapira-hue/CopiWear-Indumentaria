@@ -43,3 +43,12 @@ p{
         font-size: 12px;
     }
 }
+
+.eslogan{
+    font-family: v.$fuente-eslogan;
+    font-size: 2rem;
+    font-weight: 500;
+    color: v.$color-acento;
+    text-align: center;
+    margin-top: 15px;
+}
