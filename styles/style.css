@@ -178,12 +178,25 @@ figure{
 }
 
 /* Servicios*/
+.servicios .contenido-texto{
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 20px;
+}
+.servicios .contenido-texto article{
+    width: 90%;
+}
 .vendedor-asesorando{
     width: 40%;
     height: auto;
+    
 }
 .figura-servicios{
     margin-bottom: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 /* titulos y parrafos*/
 h1,h2,h3{
