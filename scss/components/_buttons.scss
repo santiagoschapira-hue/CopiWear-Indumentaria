@@ -1,0 +1,21 @@
+@use "../utilities/variables" as v;
+
+.carousel-control-prev{
+    left: -16%;
+}
+
+.carousel-control-next{
+    right: -16%;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    &:hover,
+    &:focus{
+        background-color: v.$color-negro;
+    }
+
+    &:active{
+        background-color: v.$color-acento;
+    }
+}

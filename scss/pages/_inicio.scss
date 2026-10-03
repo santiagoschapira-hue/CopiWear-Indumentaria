@@ -1,0 +1,36 @@
+@use "../utilities/variables" as v;
+
+.lista-productos{
+    display: grid;
+    gap: v.$espaciado-20;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        width: 40%;
+        height: auto;
+    }
+
+    article{
+        padding: v.$espaciado-20;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.titulo-galeria{
+    text-align: center;
+}
+
+.carousel-copiwear{
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1024px){
+    .lista-productos{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+}

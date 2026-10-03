@@ -1,0 +1,49 @@
+.foto-creador{
+    width: 40%;
+    height: auto;
+}
+
+.titulo-proyectos{
+    grid-area: titulo-proyectos;
+}
+
+.titulo-biografia{
+    grid-area: titulo-biografia;
+}
+
+.foto-biografia{
+    grid-area: foto-biografia;
+}
+
+.texto-biografia{
+    margin-top: 40px;
+    grid-area: texto-biografia;
+}
+
+.grid-perfil{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titulo-proyectos"
+        "titulo-biografia"
+        "foto-biografia"
+        "texto-biografia";
+    justify-items: center;
+    gap: 10px;
+}
+
+@media (min-width: 1024px){
+    .grid-perfil{
+        grid-template-columns: repeat(2, 30%);
+        justify-content: center;
+        grid-template-areas: 
+            "titulo-proyectos titulo-proyectos"
+            "titulo-biografia titulo-biografia"
+            "foto-biografia texto-biografia";
+    }
+
+    .destacados{
+        grid-template-columns: repeat(2, 40%);
+        justify-content: center;
+    }
+}

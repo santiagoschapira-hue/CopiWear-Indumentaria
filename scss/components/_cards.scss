@@ -1,0 +1,27 @@
+@use "../utilities/variables" as v;
+
+.destacados{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: v.$espaciado-20;
+
+    article{
+        padding: v.$espaciado-20;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        justify-self: center;
+    }
+
+    .card{
+        background-color: v.$color-principal;
+        color: v.$color-texto;
+        border: 1px solid v.$color-acento;
+    }
+
+    img{
+        width: 60%;
+        height: auto;
+    }
+}

@@ -1,0 +1,26 @@
+@use "../utilities/variables" as v;
+
+.servicios{
+    .contenido-texto{
+        align-items: flex-start;
+        text-align: left;
+        padding-left: v.$espaciado-20;
+
+        article{
+            width: 90%;
+        }
+    }
+
+    .vendedor-asesorando{
+        width: 40%;
+        height: auto;
+    }
+
+    .figura-servicios{
+        margin-bottom: v.$espaciado-20;
+        margin-left: v.$espaciado-20;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

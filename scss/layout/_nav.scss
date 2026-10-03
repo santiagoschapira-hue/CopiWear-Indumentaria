@@ -1,0 +1,27 @@
+@use "../utilities/variables" as v;
+
+.navbar-copiwear{
+    background-color: v.$color-principal;
+
+    .navbar-collapse{
+        justify-content: flex-end;
+    }
+
+    .nav-link{
+        color: v.$color-acento;
+        text-decoration: none;
+        padding: 5px;
+        border: 1px solid v.$color-acento;
+        border-radius: 10px;
+
+        &:hover,
+        &:focus{
+            background-color: black;
+        }
+
+        &:active{
+            background-color: v.$color-acento;
+            color: v.$color-fondo;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixins" as m;
+
+footer{
+    background-color: v.$color-principal;
+    @include m.flex(column, nowrap, space-between, center, 0);
+    padding: v.$espaciado-20;
+
+    nav{
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+
+    p{
+        font-size: 0.9rem;
+    }
+
+    a{
+        &:hover{
+            padding: 5px;
+            border: 1px solid v.$color-acento;
+            border-radius: 15px;
+        }
+
+        &:hover,
+        &:focus{
+            background-color: v.$color-claro;
+        }
+
+        &:active{
+            background-color: v.$color-acento;
+        }
+    }
+}
+
+.rrss-imagen{
+    width: 40px;
+}
+
+@media (min-width: 1024px){
+    footer{
+        flex-direction: row;
+
+        nav{
+            ul{
+                flex-direction: row;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@use "utilities/variables";
+@use "utilities/mixins";
+
+@use "base/base";
+@use "base/tipografia";
+
+@use "layout/header";
+@use "layout/nav";
+@use "layout/footer";
+
+@use "components/buttons";
+@use "components/cards";
+@use "components/titulos";
+
+@use "pages/inicio";
+@use "pages/sobre_mi";
+@use "pages/proyectos";
+@use "pages/contacto";
+@use "pages/servicios";
