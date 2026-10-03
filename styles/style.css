@@ -1,302 +1,327 @@
 /* Font Family: Montserrat */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #4B2719;
-    color: #F5F5F5;
-    font-family: "Montserrat", sans-serif;
+  background-color: #4B2719;
+  color: #F5F5F5;
+  font-family: "Montserrat", sans-serif;
 }
 
 section {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contenido-texto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 h1, h2, h3 {
-    color: #FFE6A7;
+  color: #FFE6A7;
 }
 
 h1 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 h2 {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-top: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 15px;
 }
 
 h3 {
-    font-size: 1.1rem;
-    font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 500px) {
-    h1 {
-        font-size: 24px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    h3 {
-        font-size: 16px;
-    }
-    p {
-        font-size: 12px;
-    }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
 }
 header {
-    padding: 0;
+  padding: 0;
 }
 header .logo {
-    width: 100px;
+  width: 100px;
 }
 
 .navbar-copiwear {
-    background-color: #6F1D1B;
+  background-color: #6F1D1B;
 }
 .navbar-copiwear .navbar-collapse {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 .navbar-copiwear .nav-link {
-    color: #FFE6A7;
-    text-decoration: none;
-    padding: 5px;
-    border: 1px solid #FFE6A7;
-    border-radius: 10px;
+  color: #FFE6A7;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid #FFE6A7;
+  border-radius: 10px;
 }
 .navbar-copiwear .nav-link:hover, .navbar-copiwear .nav-link:focus {
-    background-color: black;
+  background-color: black;
 }
 .navbar-copiwear .nav-link:active {
-    background-color: #FFE6A7;
-    color: #4B2719;
+  background-color: #FFE6A7;
+  color: #4B2719;
 }
 
 footer {
-    background-color: #6F1D1B;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0;
-    padding: 20px;
+  background-color: #6F1D1B;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  padding: 20px;
 }
 footer nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 footer p {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 footer a:hover {
-    padding: 5px;
-    border: 1px solid #FFE6A7;
-    border-radius: 15px;
+  padding: 5px;
+  border: 1px solid #FFE6A7;
+  border-radius: 15px;
 }
 footer a:hover, footer a:focus {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 footer a:active {
-    background-color: #FFE6A7;
+  background-color: #FFE6A7;
 }
 
 .rrss-imagen {
-    width: 40px;
+  width: 40px;
 }
 
 @media (min-width: 1024px) {
-    footer {
-        flex-direction: row;
-    }
-    footer nav ul {
-        flex-direction: row;
-    }
+  footer {
+    flex-direction: row;
+  }
+  footer nav ul {
+    flex-direction: row;
+  }
 }
 @media (max-width: 1023px) {
-    .rrss-imagen {
-        width: 35px;
-    }
+  .rrss-imagen {
+    width: 35px;
+  }
 }
 @media (max-width: 500px) {
-    .rrss-imagen {
-        width: 30px;
-    }
+  .rrss-imagen {
+    width: 30px;
+  }
 }
 .carousel-control-prev {
-    left: -16%;
+  left: -16%;
 }
 
 .carousel-control-next {
-    right: -16%;
+  right: -16%;
 }
 
 .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-    background-color: black;
+  background-color: black;
 }
 .carousel-control-prev:active,
 .carousel-control-next:active {
-    background-color: #FFE6A7;
+  background-color: #FFE6A7;
 }
 
 .destacados {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 .destacados article {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    justify-self: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  justify-self: center;
 }
 .destacados .card {
-    background-color: #6F1D1B;
-    color: #F5F5F5;
-    border: 1px solid #FFE6A7;
+  background-color: #6F1D1B;
+  color: #F5F5F5;
+  border: 1px solid #FFE6A7;
+  transition: 0.2s;
+}
+.destacados .card:hover {
+  transform: scale(1.02);
+}
+.destacados .card:active {
+  transform: scale(0.98);
 }
 .destacados img {
-    width: 60%;
-    height: auto;
+  width: 60%;
+  height: auto;
 }
 
 .titulo-productos {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.vendedor-asesorando, .foto-creador {
+  width: 40%;
+  height: auto;
 }
 
 .lista-productos {
-    display: grid;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 .lista-productos img {
-    width: 40%;
-    height: auto;
+  width: 40%;
+  height: auto;
 }
 .lista-productos article {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.2s;
+}
+.lista-productos article:hover {
+  transform: scale(1.035);
+}
+.lista-productos article:active {
+  transform: scale(0.98);
 }
 
 .titulo-galeria {
-    text-align: center;
+  text-align: center;
 }
 
 .carousel-copiwear {
-    width: 50%;
-    margin: 0 auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 @media (min-width: 1024px) {
-    .lista-productos {
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-    }
+  .lista-productos {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
 }
-.logo-secundario {
-    width: 20%;
-    height: auto;
+.imagen-galeria {
+  transition: 0.35s;
+}
+.imagen-galeria:hover {
+  transform: scale(1.035);
+}
+.imagen-galeria:active {
+  transform: scale(0.98);
 }
 
-.foto-creador {
-    width: 40%;
-    height: auto;
+.logo-secundario {
+  width: 15%;
+  height: auto;
+  margin-bottom: 15px;
+  transition: 0.2s;
+}
+.logo-secundario:hover {
+  transform: scale(1.02);
 }
 
 .titulo-proyectos {
-    grid-area: titulo-proyectos;
+  grid-area: titulo-proyectos;
 }
 
 .titulo-biografia {
-    grid-area: titulo-biografia;
+  grid-area: titulo-biografia;
 }
 
 .foto-biografia {
-    grid-area: foto-biografia;
+  grid-area: foto-biografia;
 }
 
 .texto-biografia {
-    margin-top: 40px;
-    grid-area: texto-biografia;
+  margin-top: 40px;
+  grid-area: texto-biografia;
 }
 
 .grid-perfil {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: "titulo-proyectos" "titulo-biografia" "foto-biografia" "texto-biografia";
-    justify-items: center;
-    gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "titulo-proyectos" "titulo-biografia" "foto-biografia" "texto-biografia";
+  justify-items: center;
+  gap: 10px;
 }
 
 @media (min-width: 1024px) {
-    .grid-perfil {
-        grid-template-columns: repeat(2, 30%);
-        justify-content: center;
-        grid-template-areas: "titulo-proyectos titulo-proyectos" "titulo-biografia titulo-biografia" "foto-biografia texto-biografia";
-    }
+  .grid-perfil {
+    grid-template-columns: repeat(2, 30%);
+    justify-content: center;
+    grid-template-areas: "titulo-proyectos titulo-proyectos" "titulo-biografia titulo-biografia" "foto-biografia texto-biografia";
+  }
   .destacados {
     grid-template-columns: repeat(2, 40%);
     justify-content: center;
-    }
+  }
 }
 .logo-contacto {
-    width: 10%;
-    height: auto;
+  width: 10%;
+  height: auto;
 }
 
 .servicios .contenido-texto {
-    align-items: flex-start;
-    text-align: left;
-    padding-left: 20px;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 20px;
 }
 .servicios .contenido-texto article {
-    width: 90%;
-}
-.servicios .vendedor-asesorando {
-    width: 40%;
-    height: auto;
+  width: 90%;
 }
 .servicios .figura-servicios {
-    margin-bottom: 20px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+%imagen-40{
+    width: 40%;
+    height: auto;
+}
+
+.foto-creador{
+    @extend %imagen-40;
+}
+
+.vendedor-asesorando{
+    @extend %imagen-40;
+}

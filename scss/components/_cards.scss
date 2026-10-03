@@ -1,9 +1,9 @@
 @use "../utilities/variables" as v;
 
-.destacados{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: v.$espaciado-20;
+    .destacados{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: v.$espaciado-20;
 
     article{
         padding: v.$espaciado-20;
@@ -18,6 +18,14 @@
         background-color: v.$color-principal;
         color: v.$color-texto;
         border: 1px solid v.$color-acento;
+        transition: 0.2s;
+        &:hover{
+            transform: scale(1.02);
+        }
+        &:active{
+        transform: scale(0.98);
+    }
+    
     }
 
     img{
