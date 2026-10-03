@@ -43,6 +43,9 @@ header{
 .navbar-copiwear{
     background-color: #6F1D1B;
 }
+.navbar-copiwear .navbar-collapse{
+    justify-content: flex-end;
+}
 /* MAIN */
 section{
     margin-bottom: 30px;
