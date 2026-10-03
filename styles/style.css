@@ -1,0 +1,272 @@
+/* Font Family: Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Montserrat", sans-serif; */
+/* selector universal, es un reset para el relleno y los margenes*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    background-color: #4B2719;
+    color:#F5F5F5;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER*/
+.navbar-copiwear .nav-link{
+    color: #FFE6A7;
+    /* elimina el subrayado */
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #FFE6A7;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.navbar-copiwear .nav-link:hover,
+.navbar-copiwear .nav-link:focus{
+    background-color: black;
+}
+.navbar-copiwear .nav-link:active{
+    background-color: #FFE6A7;
+    color: #4B2719;
+}
+header{
+    padding: 0;
+}
+
+.logo{
+    width: 100px;
+}
+.navbar-copiwear{
+    background-color: #6F1D1B;
+}
+/* MAIN */
+section{
+    margin-bottom: 30px;
+}
+/* Inicio */
+.contenido-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.lista-productos{
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.lista-productos img{
+    width: 40%;
+    height: auto;
+}
+.lista-productos article{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-productos{
+    display: flex;
+    justify-content: center;
+}
+.titulo-galeria{
+    text-align: center;
+}
+.carousel-copiwear{
+    width: 50%;
+    margin: 0 auto;
+}
+.imagen-galeria{
+    transition: 1s;
+}
+.carousel-control-prev{
+    left:-16%;
+    transition: 0.3s;
+}
+.carousel-control-next{
+    right: -16%;
+    transition: 0.3s;
+}
+.carousel-control-prev:hover,
+.carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus{
+    background-color: black;
+}
+.carousel-control-next:active,
+.carousel-control-prev:active{
+    background-color: #FFE6A7;
+}
+/* Proyectos */
+.foto-creador{
+    width: 40%;
+    height: auto;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destacados{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.destacados article{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    justify-self: center;
+    transition: 0.3s;
+}
+.destacados .card{
+    background-color: #6F1D1B;
+    color: #F5F5F5;
+    border: 1px solid #FFE6A7;
+}
+.destacados img{
+    width: 60%;
+    height: auto;
+}
+/* asignamos nombres de area a las clases */
+.titulo-proyectos{
+    grid-area: titulo-proyectos;
+}
+.titulo-biografia{
+    grid-area: titulo-biografia;
+}
+.foto-biografia{
+    grid-area: foto-biografia;
+}
+.texto-biografia{
+    margin-top: 40px;
+    grid-area:texto-biografia;
+}
+/* ahora modificamos el contenedor padre */
+.grid-perfil{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "titulo-proyectos"
+        "titulo-biografia"
+        "foto-biografia"
+        "texto-biografia";
+        justify-items: center;
+        gap: 10px;
+}
+/* Contactos */
+.logo-contacto{
+    width: 10%;
+    height: auto;
+}
+/* Sobre mi */
+.logo-secundario{
+    width: 20%;
+    height: auto;
+}
+
+/* Servicios*/
+.vendedor-asesorando{
+    width: 40%;
+    height: auto;
+}
+.figura-servicios{
+    margin-bottom: 20px;
+}
+/* titulos y parrafos*/
+h1,h2,h3{
+    color:#FFE6A7;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom:10px ;
+    margin-top: 10px;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+p{
+    font-size: 1rem;
+}
+
+/*  FOOTER*/
+footer{
+    background-color: #6F1D1B;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+footer nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer p{
+    font-size: 0.9rem;
+}
+.rrss-imagen{
+    width: 40px;
+}
+footer a:hover{
+    padding:5px;
+    border: 1px solid #FFE6A7;
+    border-radius: 15px;
+}
+footer a:hover,
+footer a:focus{
+    background-color: whitesmoke;
+}
+footer a:active{
+    background-color: #FFE6A7;
+}
+
+
+
+/* media queries */
+@media (min-width: 1024px){
+    .lista-productos{
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+    .grid-perfil{
+    grid-template-columns: repeat(2,30%);
+    justify-content: center;
+    grid-template-areas: 
+        "titulo-proyectos titulo-proyectos"
+        "titulo-biografia titulo-biografia"
+        "foto-biografia texto-biografia";
+    }
+    .destacados{
+        grid-template-columns: repeat(2,40%);
+        justify-content: center;
+    }
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer nav ul{
+    flex-direction: row;
+    }
+}
