@@ -57,16 +57,16 @@ p {
 
 @media (max-width: 500px) {
     h1 {
-    font-size: 24px;
+        font-size: 24px;
     }
     h2 {
-    font-size: 20px;
+        font-size: 20px;
     }
     h3 {
-    font-size: 16px;
+        font-size: 16px;
     }
     p {
-    font-size: 12px;
+        font-size: 12px;
     }
 }
 header {
@@ -134,10 +134,20 @@ footer a:active {
 
 @media (min-width: 1024px) {
     footer {
-    flex-direction: row;
+        flex-direction: row;
     }
     footer nav ul {
-    flex-direction: row;
+        flex-direction: row;
+    }
+}
+@media (max-width: 1023px) {
+    .rrss-imagen {
+        width: 35px;
+    }
+}
+@media (max-width: 500px) {
+    .rrss-imagen {
+        width: 30px;
     }
 }
 .carousel-control-prev {
@@ -255,13 +265,13 @@ footer a:active {
 
 @media (min-width: 1024px) {
     .grid-perfil {
-    grid-template-columns: repeat(2, 30%);
-    justify-content: center;
-    grid-template-areas: "titulo-proyectos titulo-proyectos" "titulo-biografia titulo-biografia" "foto-biografia texto-biografia";
-    }
-    .destacados {
-        grid-template-columns: repeat(2, 40%);
+        grid-template-columns: repeat(2, 30%);
         justify-content: center;
+        grid-template-areas: "titulo-proyectos titulo-proyectos" "titulo-biografia titulo-biografia" "foto-biografia texto-biografia";
+    }
+  .destacados {
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
     }
 }
 .logo-contacto {

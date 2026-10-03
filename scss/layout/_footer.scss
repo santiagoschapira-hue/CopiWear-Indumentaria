@@ -52,3 +52,14 @@ footer{
         }
     }
 }
+@media (max-width: 1023px){
+    .rrss-imagen{
+        width: 35px;
+    }
+}
+
+@media (max-width: 500px){
+    .rrss-imagen{
+        width: 30px;
+    }
+}
