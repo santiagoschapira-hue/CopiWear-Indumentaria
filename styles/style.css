@@ -23,7 +23,6 @@ body{
     padding: 5px;
     border: 1px solid #FFE6A7;
     border-radius: 10px;
-    transition: 0.3s;
 }
 .navbar-copiwear .nav-link:hover,
 .navbar-copiwear .nav-link:focus{
@@ -85,15 +84,12 @@ section{
     margin: 0 auto;
 }
 .imagen-galeria{
-    transition: 1s;
 }
 .carousel-control-prev{
     left:-16%;
-    transition: 0.3s;
 }
 .carousel-control-next{
     right: -16%;
-    transition: 0.3s;
 }
 .carousel-control-prev:hover,
 .carousel-control-prev:focus,
@@ -129,7 +125,6 @@ figure{
     align-items: center;
     width: 90%;
     justify-self: center;
-    transition: 0.3s;
 }
 .destacados .card{
     background-color: #6F1D1B;
